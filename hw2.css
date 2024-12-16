@@ -1,0 +1,40 @@
+section{
+    float: left;
+    margin: 0;
+    padding-bottom: 0px;
+}
+
+#comments{
+    width: 250px;
+    height: 150px;
+    border-style: solid;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+}
+
+#thanks{
+    border-style: solid;
+    width: 290px;
+    height: 175px;
+    text-align: center;
+    margin-left: 17%;
+    position: absolute;
+}
+
+img{
+    border-style: solid;
+    width: 290px;
+    height: 175px;
+    margin-left: 55%;
+    float: right;
+    position: absolute;
+}
+#botm{
+    border-style: none;
+    position: absolute;
+    margin-top: 20%;
+    padding-bottom: 0px;
+    font-size: 20px;
+    font-weight: normal;
+}
