@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>  </title>
+  <link rel="stylesheet" href="hw2.css"> 
+</head>
+<body>
+    
+<h1>Product Feedback</h1>
+
+    <form action="results.php" method="post"> 
+    
+    <br>
+    Product Name: <input type="text" name="name"  value="">
+    
+    <br><br>
+    
+    Purchase Location:
+    <select name="location">
+        <option value="Online">Online</option>
+        <option value="Physical Store">Physical Store</option>
+    </select>
+    <br><br>
+    
+   <b>Satisfaction Level:</b> 
+   <br><br>
+    <input type="radio" name="satisfied" value="Happy">Happy With Product
+    <input type="radio" name="satisfied" value="Okay">Product is Okay
+    <input type="radio" name="satisfied" value="Unhappy">Unhappy with Product
+    <br><br>
+ <b>  Comments: </b> 
+    <br>
+    <textarea name="comments" style="width: 250px; height: 150px;"></textarea>
+    <br>
+    <input type="submit" name="submit" value="Submit Feedback">
+    
+    
+    
+    
+</form> 
+
+</body>
+</html>
