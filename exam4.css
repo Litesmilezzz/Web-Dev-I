@@ -1,0 +1,16 @@
+div {
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#leftcol {
+	width: 45%;
+	float: left;
+	border-style: solid;
+}
+
+#rightcol {
+	width: 50%;
+	float: right; 
+	border-style: solid;
+}
